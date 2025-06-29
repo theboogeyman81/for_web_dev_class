@@ -1,0 +1,105 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-image: url('images/coolbackgrounds-topography-micron.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #000;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.85); /* semi-transparent dark */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  height: 60px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #b8c6db;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: transparent;
+  color: #fff;
+  position: relative;
+}
+
+
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  background: -webkit-linear-gradient(#000,#6F8FE2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.subtitle {
+  font-size: 48px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(#000,#6F8FE2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10px;
+}
+
+.tagline {
+  font-size: 18px;
+  color: #000000;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+/* Button */
+.hero-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 28px;
+  background: linear-gradient(to bottom, #15153a, #5e6b8b);
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.hero-button:hover {
+  background: linear-gradient(to bottom, #1c1c47, #6c7aa2);
+  transform: translateY(-2px);
+}
