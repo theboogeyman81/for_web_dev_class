@@ -62,6 +62,7 @@ body {
 .title {
   font-size: 64px;
   font-weight: 700;
+  padding-top: 25vh ;
   letter-spacing: 4px;
   background: -webkit-linear-gradient(#000,#6F8FE2);
   -webkit-background-clip: text;
