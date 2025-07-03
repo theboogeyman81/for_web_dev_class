@@ -1,0 +1,121 @@
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to bottom, #d3d9f3, #0a2c78);
+  color: #000;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #0B0D11, #4B5977);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  z-index: 1000;
+}
+
+.logo {
+  height: 60px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #b8c6db;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.95;
+}
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  color: #000;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+/* Faculty Section */
+.faculty-section {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.faculty-card {
+  background: linear-gradient(to bottom, #d3d9f3, #395586);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.faculty-img {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.faculty-info {
+  flex: 1;
+}
+
+.faculty-info h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.faculty-info p {
+  margin: 5px 0;
+}
+
+.faculty-info ul {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.faculty-info ul li {
+  list-style-type: disc;
+}
