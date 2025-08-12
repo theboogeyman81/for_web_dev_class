@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1> Survery form </h1>
+
+    <form id="form">
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+        </div>
+
+
+        <div class="form-control">
+            <label for="age" id="label-age">Age</label>
+            <input type="number" id="age" placeholder="Enter the age">
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-select">Which option describes you the best?</label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="others">Others</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>Would rec this anyone?</label><br>
+            <label for="rec-1" id="label-rec-1">yes</label>
+            <input type="radio" id="rec-1" name="rec"><br>
+            <label for="rec-2" id="label-rec-2">no</label>
+            <input type="radio" id="rec-2" name="rec"><br>
+            <label for="rec-3" id="label-rec-3">maybe</label>
+            <input type="radio" id="rec-3" name="rec">
+        </div>
+    </form>
+    
+</body>
+</html>
