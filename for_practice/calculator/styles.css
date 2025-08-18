@@ -27,3 +27,49 @@ body{
     color: white;
     border-radius: 5px;
 }
+
+.buttons{
+    display: grid ;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    font-size:18px;
+    border: none ;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.number{
+    background-color: #666;
+    color:white;
+}
+
+.operator{
+    background-color: #ff9500;
+}
+
+.operator:hover{
+    background-color: #ffad33;
+}
+
+.clear{
+    background-color: #a6a6a6;
+}
+
+.clear:hover {
+    background-color: #bfbfbf;
+}
+
+.equals{
+    background-color: #ff9500;
+    color:white;
+}
+
+.equals:hover{
+    background-color: #ffad33;
+}
