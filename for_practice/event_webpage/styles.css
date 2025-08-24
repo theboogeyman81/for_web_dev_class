@@ -107,3 +107,75 @@ table tr:nth-child(even){
 }
 
 
+.Speakers{
+    width: 80% ;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+}
+
+.Speakers h2{
+    color: rgb(36, 119, 87);
+}
+
+.Speakers:hover{
+    background-color: #43a754;
+    color: white;
+}
+
+
+.contact_us{
+    width: 80%;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow:0 10px 10px rgba(0,0,0,1);
+}
+
+.contact_us h2{
+    color: rgb(36, 119, 87);
+}
+
+.contact_us:hover{
+    background-color: #43a754;
+}
+
+
+form label{
+    display: block;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+form input,
+form textarea{
+    width:95%;
+    padding: 14px;
+    margin-bottom:18px;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+form button {
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+    padding:10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+form button:hover {
+    background-color: #0056b3;
+}
+form button:active {
+    background-color: #004085;
+}
