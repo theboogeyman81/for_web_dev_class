@@ -51,9 +51,15 @@ header p{
     margin: 20px  auto;
     border: 2px solid ;
     border-radius:10px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 2);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    transition: box-shadow 0.3s ease;
 }
 
+.about:hover{
+    background-color: #43a754;
+    color: white;
+
+}
 .about h2{
     color: rgb(36, 119, 87);
 }
@@ -65,19 +71,39 @@ header p{
     margin:20px auto;
     border: 2px solid;
     border-radius:10px;
-    box-shadow: 0 10px 10px rgba(0,0,0,2);
+    box-shadow: 0 10px 10px rgba(0,0,0,1);
 }
 
 .event h2{
     color: rgb(36, 119, 87);
 }
 
+.event:hover{
+    background-color: #43a754;
+    
+}
+
 
 table{
     width:100%;
-    
+    border-collapse:collapse;
+    margin-top: 15px;
 }
+
+
 table th , 
 table td{
     border: 2px solid black;
 }
+
+table th{
+    background-color: #f1f1f1;
+    font-weight: 600;
+    color:#333;
+}
+
+table tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+
