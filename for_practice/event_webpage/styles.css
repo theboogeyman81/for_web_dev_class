@@ -1,0 +1,83 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #e5e8ec;
+}
+
+
+
+header{
+    background-color: rgb(50, 146, 50);
+    color: white;
+    text-align: center;
+    padding: 10px; 
+}
+
+header p{
+    margin-bottom:20px ;
+}
+
+.navi{
+    background-color: rgba(84, 185, 129, 0.233);
+    color: #fdfdfda1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px; 
+}
+
+.navi a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 400;
+    margin: 10px;
+    font-size:1.1rem;
+    letter-spacing: 0.5px;
+    
+}
+
+.navi a:hover{
+    color: rgb(28, 92, 47);
+    text-decoration: underline;
+}
+
+.about{
+    width: 80%;
+    padding:25px ;
+    margin: 20px  auto;
+    border: 2px solid ;
+    border-radius:10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 2);
+}
+
+.about h2{
+    color: rgb(36, 119, 87);
+}
+
+
+.event{
+    width:80%;
+    padding:25px;
+    margin:20px auto;
+    border: 2px solid;
+    border-radius:10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,2);
+}
+
+.event h2{
+    color: rgb(36, 119, 87);
+}
+
+
+table{
+    width:100%;
+    
+}
+table th , 
+table td{
+    border: 2px solid black;
+}
